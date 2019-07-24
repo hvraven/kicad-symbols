@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADE-6
+D Mixer, +7 dBm LO, 0.05 to 250 MHz
+K mixer rf
+F www.minicircuits.com/pdfs/ADE-6.pdf
+$ENDCMP
+#
+$CMP ADEX-10
+D Mixer, +7 dBm LO, 10 to 1000 MHz
+K mixer rf
+F https://ww2.minicircuits.com/pdfs/ADEX-10.pdf
+$ENDCMP
+#
 $CMP ADL5801
 D 10 MHz to 6 GHz Active Mixer, LFCSP-24
 K mixer active
