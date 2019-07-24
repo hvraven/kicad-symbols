@@ -312,6 +312,36 @@ K RF Amplifier
 F https://www.analog.com/media/en/technical-documentation/data-sheets/HMC8500PM5E.pdf
 $ENDCMP
 #
+$CMP ERA-1SM
+D DC-8GHz, Low Current MMIC Amplifier, WW107
+K RF amplifier
+F https://ww2.minicircuits.com/pdfs/ERA-1SM+.pdf
+$ENDCMP
+#
+$CMP ERA-4SM
+D DC-4GHz, High Dynamic Range MMIC Amplifier, WW107
+K RF amplifier
+F https://www.minicircuits.com/pdfs/ERA-4SM+.pdf
+$ENDCMP
+#
+$CMP ERA-4XSM
+D DC-8GHz, High Dynamic Range MMIC Amplifier, WW107
+K RF amplifier
+F https://www.minicircuits.com/pdfs/ERA-4XSM+.pdf
+$ENDCMP
+#
+$CMP ERA-5SM
+D DC-8GHz, General Purpose MMIC Amplifier, WW107
+K RF amplifier
+F https://www.minicircuits.com/pdfs/ERA-5SM+.pdf
+$ENDCMP
+#
+$CMP ERA-5XSM
+D DC-4GHz, General Purpose MMIC Amplifier, WW107
+K RF amplifier
+F https://ww2.minicircuits.com/pdfs/ERA-5XSM+.pdf
+$ENDCMP
+#
 $CMP MAX2679
 D GPS/GNSS Ultra-Low Current Low-Noise Amplifier, +19dB @ 1.57GHz, WLP-4
 K RF GAIN BLOCK
