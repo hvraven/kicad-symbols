@@ -48,6 +48,18 @@ K Power Sequencer
 F http://www.ti.com/lit/ds/symlink/lm3880.pdf
 $ENDCMP
 #
+$CMP MAX16050
+D 5 Voltage Monitor/Sequencer with Reverse-Sequencing Capability, QFN-28
+K power sequencing
+F https://datasheets.maximintegrated.com/en/ds/MAX16050-MAX16051.pdf
+$ENDCMP
+#
+$CMP MAX16051
+D 6 Voltage Monitor/Sequencer with Reverse-Sequencing Capability, QFN-28
+K power sequencing
+F https://datasheets.maximintegrated.com/en/ds/MAX16050-MAX16051.pdf
+$ENDCMP
+#
 $CMP MAX6355
 D Dual Voltage μP Supervisory Circuits, SOT-23-6
 K Power Supervisor
