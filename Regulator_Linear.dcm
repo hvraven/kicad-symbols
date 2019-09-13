@@ -1548,6 +1548,12 @@ K linear regulator
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxga5wefj-e.pdf
 $ENDCMP
 #
+$CMP HT75xx-1-SOT89
+D 100mA Low Dropout Voltage Regulator, Fixed Output, SOT89
+K 100mA LDO Regulator Fixed Positive
+F https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf
+$ENDCMP
+#
 $CMP ICL7663
 D 50mA 5V/Programmable Voltage Regulator, DIP-8/SO-8/TO-99
 K Linear Regulator 50mA 5V fixed
@@ -6994,6 +7000,12 @@ $CMP TPS7A91
 D 1A, High-Accuracy, Low-Noise LDO Voltage Regulator, Texas S-PDSO-N10
 K LDO voltage regulator
 F http://www.ti.com/lit/ds/symlink/tps7a91.pdf
+$ENDCMP
+#
+$CMP XC6206PxxxMR
+D Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23
+K Torex LDO Voltage Regulator Fixed Positive
+F https://www.torexsemi.com/file/xc6206/XC6206.pdf
 $ENDCMP
 #
 $CMP XC6220B331MR
