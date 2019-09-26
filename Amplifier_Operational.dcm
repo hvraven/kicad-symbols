@@ -54,14 +54,14 @@ K single opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4530-1.pdf
 $ENDCMP
 #
-$CMP ADA4610-1xRJ
-D Low Noise, Precision, Rail-to-Rail Output, JFET Single Op Amp, SOT-23-5
+$CMP ADA4610-1xR
+D Low Noise, Precision, Rail-to-Rail Output, JFET Single Op Amp, SOIC-8
 K single opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
 $ENDCMP
 #
-$CMP ADA4610-1xRZ
-D Low Noise, Precision, Rail-to-Rail Output, JFET Single Op Amp, SOIC-8
+$CMP ADA4610-1xRJ
+D Low Noise, Precision, Rail-to-Rail Output, JFET Single Op Amp, SOT-23-5
 K single opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
 $ENDCMP
@@ -72,14 +72,14 @@ K dual opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
 $ENDCMP
 #
-$CMP ADA4610-2xRM
-D Dual Low Noise, Precision, Rail-to-Rail Output, JFET Op Amp, MSOP-8
+$CMP ADA4610-2xR
+D Dual Low Noise, Precision, Rail-to-Rail Output, JFET Op Amp, SOIC-8
 K dual opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
 $ENDCMP
 #
-$CMP ADA4610-2xRZ
-D Dual Low Noise, Precision, Rail-to-Rail Output, JFET Op Amp, SOIC-8
+$CMP ADA4610-2xRM
+D Dual Low Noise, Precision, Rail-to-Rail Output, JFET Op Amp, MSOP-8
 K dual opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
 $ENDCMP
@@ -990,6 +990,24 @@ K single opamp zero-drift
 F http://www.ti.com/lit/ds/symlink/opa188.pdf
 $ENDCMP
 #
+$CMP OPA196xD
+D Sing, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
+$ENDCMP
+#
+$CMP OPA196xDBV
+D Single, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOT-23-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
+$ENDCMP
+#
+$CMP OPA196xDGK
+D Single, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, VSSOP-8
+K single opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
+$ENDCMP
+#
 $CMP OPA197xD
 D Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8
 K single opamp rtor
@@ -1012,6 +1030,18 @@ $CMP OPA2134
 D Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8
 K dual opamp
 F http://www.ti.com/lit/ds/symlink/opa134.pdf
+$ENDCMP
+#
+$CMP OPA2196xD
+D Dual, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-8
+K dual opamp low-power
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
+$ENDCMP
+#
+$CMP OPA2196xDGK
+D Dual, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, VSSOP-8
+K dual opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
 $ENDCMP
 #
 $CMP OPA2197xD
@@ -1216,6 +1246,18 @@ $CMP OPA4134
 D Quad SoundPlus High Performance Audio Operational Amplifiers, SOIC-14
 K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa134.pdf
+$ENDCMP
+#
+$CMP OPA4196xD
+D Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14
+K quad opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
+$ENDCMP
+#
+$CMP OPA4196xPW
+D Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, TSSOP-14
+K quad opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
 $ENDCMP
 #
 $CMP OPA4197xD
