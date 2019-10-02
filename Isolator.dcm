@@ -84,6 +84,12 @@ K darlington optocoupler
 F http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf
 $ENDCMP
 #
+$CMP ACPL-K73L
+D Dual High Speed  15-MBd CMOS Optocoupler, SOIC-8
+K High speed optically coupled gates push-pull
+F http://docs.avagotech.com/docs/AV02-0391EN
+$ENDCMP
+#
 $CMP ADN4651
 D Dual-Channel LVDS Isolators, 5 kV RMS/3.75 kV RMS, 600 Mbps, SSOP-20
 K LVDS Isolator
